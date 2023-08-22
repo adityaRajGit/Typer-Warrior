@@ -1,0 +1,63 @@
+.top {
+    display: grid;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.icon {
+    font-size: 5.5rem;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+}
+
+.winnerName {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-align: center;
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.winnerSubtitle {
+    font-size: 1.5rem;
+    color: var(--color-text-light);
+    margin-top: -0.2rem;
+}
+
+.divider {
+    margin: 4rem 0;
+    height: 0.3rem;
+    width: 7rem;
+    background-color: var(--color-main-light);
+}
+
+.table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: max-content 1fr max-content max-content;
+    gap: 0.5rem 1rem;
+    overflow: hidden;
+    font-size: 1.8rem;
+    color: var(--color-text);
+}
+
+.playerRank {
+    color: var(--color-text-light);
+}
+
+.playerName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.textLight {
+    color: var(--color-light-gray);
+}
+
+.alignRight {
+    text-align: right;
+}

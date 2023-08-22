@@ -1,0 +1,25 @@
+.button {
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem 6rem;
+    border: 0.2rem solid var(--color-accent);
+    color: var(--color-accent);
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: 0.4s background-color;
+    background: none;
+
+    &:hover {
+        background-color: rgba(#2d014a, 0.1);
+    }
+}
+
+.button__small {
+    width: max-content;
+    padding: 1.3rem 5rem;
+    font-size: 1.7rem;
+}

@@ -1,0 +1,58 @@
+.lobby {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 4rem;
+    padding: 2rem;
+}
+
+.title {
+    color: var(--color-text-light);
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-text-light);
+    font-size: 2.2rem;
+    text-align: center;
+
+    span {
+        color: var(--color-text);
+    }
+}
+
+.divider {
+    margin: 4rem 0;
+    height: 0.3rem;
+    width: 7rem;
+    background-color: var(--color-main-light);
+}
+
+.users {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.cars {
+    width: max-content;
+    display: grid;
+    grid-template-columns: 5rem 5rem;
+    gap: 2rem;
+}
+
+.car {
+    font-size: 3.5rem;
+    color: var(--color-dark-gray);
+    cursor: pointer;
+
+    &:hover {
+        color: var(--color-light-gray);
+    }
+}
+
+.car__selected {
+    color: var(--color-accent);
+}

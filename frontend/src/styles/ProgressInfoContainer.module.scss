@@ -1,0 +1,143 @@
+.container {
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: var(--color-main);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: max-content max-content;
+    gap: 1.5rem;
+}
+
+.top {
+    background-color: var(--color-main-light);
+    border-radius: 1rem;
+    padding: 2.5rem 1rem;
+    position: relative;
+    overflow: hidden;
+    font-size: 2rem;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        width: 1.4rem;
+        height: 0.2rem;
+        background-color: var(--color-light-gray);
+        border-radius: 1rem;
+        bottom: 22%;
+        transform: translateX(-50%);
+    }
+}
+
+.top__finished {
+    background-color: var(--color-main-light);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden;
+    height: 7.7rem;
+    display: grid;
+    place-items: center;
+}
+
+.bottom {
+    background-color: var(--color-main-light);
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.4rem;
+
+    span {
+        margin-right: 0.1rem;
+    }
+}
+
+.textWrapperLeft {
+    width: 48%;
+    left: 1%;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(-50%);
+
+    p {
+        float: right;
+    }
+}
+
+.textWrapperCenter {
+    width: max-content;
+    left: 50%;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.textWrapperRight {
+    width: 48%;
+    left: 51%;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.text {
+    color: var(--color-text);
+    white-space: nowrap;
+}
+
+.lightText {
+    color: var(--color-text-light);
+    white-space: nowrap;
+}
+
+.space {
+    width: 0.5rem;
+    display: inline-block;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+
+    span {
+        white-space: pre;
+        display: inline-block;
+        min-width: 0;
+        overflow: hidden;
+
+        &:first-child {
+            overflow: hidden;
+            text-align: right;
+
+            div {
+                float: right;
+            }
+        }
+    }
+}
+
+.finishedIcon {
+    animation: forwards 0.4s finished ease-in;
+    animation-delay: 0.5s;
+    opacity: 0;
+    font-size: 3rem;
+    color: var(--color-text-light);
+
+    @keyframes finished {
+        0% {
+        }
+        60% {
+            font-size: 4rem;
+            opacity: 1;
+        }
+        100% {
+            font-size: 3rem;
+            opacity: 1;
+        }
+    }
+}

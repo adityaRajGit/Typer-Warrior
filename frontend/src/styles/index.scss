@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+:root {
+    --shadow: 0 0 0.6rem rgba(62, 62, 62, 0.15);
+    --color-background: #0064ac;
+    --color-main:  #84012d;
+    --color-main-light: #2B2B2B;
+    --color-accent: #ff6464;
+    --color-text: #83fb99;
+    --color-text-light: rgba(255, 255, 255, 0.5);
+    --color-error: #ff0000;
+    --color-dark-gray: #817e7e;
+    --color-light-gray: #898989;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    &::-webkit-scrollbar-track {
+        background-color: var(--color-main);
+    }
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+        background-color: var(--color-main);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--color-main-light);
+        border-radius: 1rem;
+    }
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--color-background);
+}
