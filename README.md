@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/adityaRajGit/Typer-Warrior">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Typing Warrior</h3>
@@ -33,7 +33,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](screenshot.png)
 
 Speed Typing Game Application Create a Speed Typing game application where players can practice and compete against each other.
 
@@ -117,9 +117,3 @@ Distributed under the MIT License. See [LICENSE](https://github.com/adityaRajGit
 
 * **Shashank Singh** - *BIT MESRA EEE Student* - [Shashank Singh](https://github.com/shashankkrs) - *Timing Feature , Lobby Generator*
 * **Aditya Raj** - *BIT MESRA EEE Student* - [Aditya Raj](https://github.com/adityaRajGit) - *Multiplayer Lobby , Automotive UI  *
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
