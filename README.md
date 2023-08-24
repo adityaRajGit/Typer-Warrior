@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/adityaRajGit/Typer-Warrior">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="180" height="80">
   </a>
 
   <h3 align="center">Typing Warrior</h3>
