@@ -6,7 +6,6 @@ This repository is the frontend React code - the backend server code can be foun
 
 Contribute
 If you're interested in contributing to TypeRace, whether it's by adding new features, fixing bugs, or improving the user interface, please check out our open-source repositories linked above. We welcome your contributions!
-
 Feedback
 We're constantly working to improve TypeRace and provide an excellent gaming experience. If you have any feedback, suggestions, or bug reports, please don't hesitate to reach out to us.
 
